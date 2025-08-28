@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/style.css" rel="stylesheet">
+    
+    <title>Tailwind Grid Project With Hover Effect</title>
+    <!-- <script src="https://cdn.tailwindcss.com"></script> . Burayi Aktif Ediniz! -->
+</head>
+
+<body class="bg-gray-300 font-sans space-y-3 ">
+ 
+
+    <header class="text-center py-10 bg-gray-500 border-b-2 decoration-2 rounded-b-full">
+        <h1 class="text-3xl text-white font-sans font-bold cursor-pointer hover:text-green-500 transition">Basic-Portfolio Grid Project</h1>
+        <p class="text-xl mt-3 cursor-pointer text-gray-300 hover:text-green-500 transition">Tailwind CSS Grid Kullanarak Responsive Kart Tasarimi...</p>
+    </header>
+
+   
+    <!--my main div -->
+    <div class="max-w-6xl mx-auto  grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 p-6 bg-gray-400 border-2 border-green-500 rounded-2xl">
+
+        
+        <div class="bg-white rounded-xl shadow-xl overflow-hidden hover:scale-105 transition hover:shadow-2xl hover:shadow-fuchsia-500/50 border-2 border-amber-300">
+            <img src="https://picsum.photos/600/400?random=1" alt="Proje 1" class="w-full h-48 object-cover">
+
+            <div class="p-5">
+                <h1 class=" text-xl text-black font-sans font-bold mt-3 hover:text-green-500 transition">My Kart 1 </h1>
+                <p class="text-black cursor-pointer hover:text-blue-700 transition ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates, incidunt!</p>
+            </div>
+        </div>
+
+
+
+        <div class="bg-white rounded-2xl border-2 border-blue-400 shadow-xl overflow-hidden hover:scale-105 transition hover:shadow-amber-400">
+            <img src="https://picsum.photos/600/400?random=2" alt="Proje 2" class="w-full h-48 object-cover">
+
+            <div class="p-5">
+                <h2 class="text-xl font-bold text-black mt-3 hover:text-green-500 transition">My Kart 2 </h2>
+                <p class="text-gray-600 hover:text-blue-500 transition">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, reiciendis?</p>
+            </div>
+        </div>
+
+
+
+        <div class="bg-white rounded-2xl overflow-hidden border-red-500 border-2 shadow-xl hover:scale-105 transition hover:shadow-black col-span-1 md:col-span-2">
+            <img src="https://picsum.photos/800/400?random=3" alt="Proje 3" class="w-full h-56 object-cover">
+
+            <div class="p-5">
+                <h2 class="text-xl text-black font-sans font-bold hover:text-green-600">Mt Kart 3 </h2>
+                <p class="text-gray-600 mt-2 hover:text-blue-600 cursor-pointer transition">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, est. Quis ut numquam atque deserunt nesciunt nihil possimus eligendi assumenda!</p>
+            </div>
+        </div>
+
+
+
+        <div class="bg-white rounded-2xl overflow-hidden border-fuchsia-600 border-2 shadow-xl hover:scale-105 transition hover:shadow-orange-800">
+             <img src="https://picsum.photos/600/400?random=4" alt="Proje 4" class="w-full h-48 object-cover">
+
+             <div class="p-5">
+                <h2 class="text-xl font-black font-sans hover:text-green-600 transition cursor-pointer">My Kart 4</h2>
+                <p class="mt-2 text-gray-600  hover:text-blue-600 cursor-pointer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, alias.</p>
+             </div>
+        </div>
+
+        
+        <div class="bg-white rounded-2xl border-2 border-blue-300 shadow-xl hover:scale-105 transition hover:shadow-green-600">
+            <img src="https://picsum.photos/600/400?random=5" alt="Proje 5" class="w-full h-48 object-cover">
+
+            <div class="p-5">
+                <h2 class="text-xl text-black font-bold  cursor-pointer hover:text-green-600 transition">My Kart 5</h2>
+                <p class="text-gray-600 hover:text-blue-600 transition">Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, obcaecati?</p>
+            </div>
+        </div>
+
+
+
+        <div class="bg-white rounded-2xl shadow-xl overflow-hidden border-2 border-pink-600 hover:scale-105 transition hover:shadow-yellow-600 cursor-pointer">
+            <img src="https://picsum.photos/600/400?random=6" alt="Proje 6" class="w-full h-48 object-cover">
+
+            <div class="p-5">
+              <h2 class="text-xl font-black font-sans hover:text-green-600 transition">My Kart 6</h2>
+              <p class="text-gray-600 hover:text-blue-600 transition">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non, natus.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+
+    <footer class="bg-gray-500 p-10 rounded-t-full border-2 border-green-600 mt-6 cursor-pointer">
+      <p class="text-sm text-gray-300 flex justify-center items-center">  &copy;Davut Beytekin | Tüm Hakları Saklıdır</p>
+    </footer>
+
+</body>
+
+</html>
